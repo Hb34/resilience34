@@ -1,0 +1,206 @@
+html{
+    display: block;
+}
+body {
+    margin: auto !important;
+    margin-top: 8px;
+    max-width: 1400px;
+	font-family: "Lato", sans-serif;
+}
+nav {
+    margin: auto !important;
+    margin-top: 8px;
+    max-width: 1400px;
+}
+img{
+    width: 30px;
+}
+
+/* ------------------ slider accueil css ------------------ */
+#slider {
+	width: 100%;
+	overflow: hidden;
+	float: left;
+	margin-right: 20px;
+}
+
+#slider figure{
+	position : relative;
+	width: 400%;
+	margin: 0;
+	padding: 0;
+	font-size: 0;
+	text-align: left;
+	animation: 10s slidy infinite;
+}
+
+#slider figure img{
+	width: 25%;
+	height: 400px; 
+	float: left;
+}
+
+
+@keyframes slidy {	
+	0% {left : 0%}
+	30% {left : 0%}
+
+	35% {left : -100%}
+	65% {left : -100%}
+
+	70% {left : -200%}
+	95% {left : -200%}
+
+	100% {left : -300%}
+}
+
+.dot{
+	height: 17px;
+	width: 17px;
+	border-radius: 50%;
+	display: inline-block;
+	background-color : lightgrey;
+	margin:5px;
+	margin-top :10px;
+	
+}
+
+.dot1{
+	animation: 10s BackgroundDot1 infinite;
+}
+@keyframes BackgroundDot1
+{
+	0% { background-color : grey; }
+	30% { background-color : grey; }
+
+	35% { background-color : lightgrey; }
+	95% { background-color :lightgrey; }
+
+100% { background-color : grey; }
+}
+
+
+.dot2{
+	animation: 10s BackgroundDot2 infinite;
+}
+@keyframes BackgroundDot2
+{
+	0% { background-color: lightgrey; }
+	30% { background-color: lightgrey; }
+
+	35% { background-color: grey; }
+	65% { background-color: grey; }
+
+	70% { background-color: lightgrey; }
+	100% { background-color: lightgrey; }
+}
+
+
+.dot3{
+	animation: 10s BackgroundDot3 infinite;
+}
+@keyframes BackgroundDot3
+{
+	0% { background-color: lightgrey; }
+	65% { background-color: lightgrey; }
+
+	70% { background-color: grey; }
+	95% { background-color: grey; }
+
+	100% { background-color: lightgrey; }
+}
+
+@media screen and (max-width: 1100px)
+{
+	#slider {
+		width: 100%;
+	}
+	.dot{
+		height: 15px;
+		width: 15px;	
+		margin-top:5px;
+		transition: 0.8s;
+	}
+}
+
+/* ------------------ inscription connexion ------------------ */
+	body {
+		font-family: "Lato", sans-serif !important;
+	}
+    .main-head{
+        height: 150px;
+        background: #FFF;
+       
+    }
+    
+    .sidenav {
+        height: 85%;
+        /* background-color: rgba(52,58,64);*/
+		background-color: #000;
+        overflow-x: hidden;
+        padding-top: 20px;
+    }
+    
+    .main {
+        padding: 0px 10px;
+    }
+    
+    @media screen and (max-height: 450px) {
+        .sidenav {padding-top: 15px;}
+    }
+    
+    @media screen and (max-width: 450px) {
+        .login-form{
+            margin-top: 10%;
+        }
+    
+        .register-form{
+            margin-top: 10%;
+        }
+    }
+    
+    @media screen and (min-width: 768px){
+        .main{
+            margin-left: 40%; 
+        }
+        .sidenav{
+            width: 37%;
+            position: absolute;
+            z-index: 1;
+            top: 0;
+        }
+    
+        .login-form{
+            margin-top: 60%;
+        }
+    
+        .register-form{
+            margin-top: 20%;
+        }
+    }
+    
+    
+    .login-main-text{
+        margin-top: 15%;
+        padding: 60px;
+        color: #fff;
+    }
+    
+    .login-main-text h2{
+        font-weight: 300;
+    }
+    
+    .btn-black{
+        background-color: #000 !important;
+        color: #fff;
+    }
+/*----------------------------------- Footer --------------------------------------- */
+#Copyright{
+	color: #FFF;
+	background-color:rgba(52,58,64);
+}
+.text-reset{
+
+	color: rgba(52,58,64);
+
+}

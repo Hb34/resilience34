@@ -1,0 +1,228 @@
+
+body,html,*{
+    
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+body{
+    margin-left: 20px;
+    margin-right: 20px;
+    
+}
+
+/* _____________________page connexion 2__________________ */
+
+.h1_title {
+    background-color: #676162;
+    text-align: center;
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
+    margin-top: 18px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    margin-bottom: 0px;
+}
+
+.btn_audace {
+    font-size: 15px;
+    font-weight: bold;
+    background-color: #005f88;
+    color: white;
+    padding: 12px 40px;
+    cursor: pointer;
+    border: 1px solid #005f88;
+}
+.btn_audace:hover {
+    background-color: white;
+    color: #005f88;
+    transition-duration: 1s;
+    border: 1px solid #005f88;
+}
+    .data_connexion {
+        color: #005f88;
+        text-align: right;
+        width: 25%;
+        float: left;
+        padding-top: 11px;
+    }
+
+    .page_connexion {
+        position: relative;
+        background-color: #f1f1f1;
+        height: 450px;
+        padding-top: 50px;
+        text-align: center;
+    }
+
+    .inputs {
+        width: 65%;
+        padding-left: 9%;
+        float: left;
+    }
+
+    .lien_connexion {
+        color: #005f88;
+        font-size: 14px;
+        text-decoration: none;
+    }
+
+    .taille_input {
+        width: 97%;
+        padding-bottom: 3px;
+        float: left;
+        height: 32px;
+	padding-left: 5px;
+    }
+
+    .lien {
+        clear: both;
+	padding-top: 6px;
+    }
+
+    #lien_connecter {
+        padding-right: 130px;
+    }
+
+    #lien_mdp_perdu {
+        padding-right: 35px;
+    }
+
+    .g-recaptcha {
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+    }
+
+    .infos {
+        margin: 0 auto;
+        width: 60%;
+        justify-content: right;
+    }
+
+    .show-password {
+        position: relative;     
+        right: 22%;
+    }
+
+
+    @media screen and (max-width: 940px) {
+        .infos {
+            width: 65%;
+        }
+    }
+
+    @media screen and (max-width: 700px) {
+        .data_connexion {
+            clear: both;
+            width: 100%;
+            text-align: center;
+        }
+        .inputs {
+            width: 100%;
+            float: left;
+            padding-left: 0;
+            height: 50px;
+        }
+
+        .show-password {    
+            float: right;
+            right: 0;
+            position: relative;
+            top: -40px;
+        }
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .form-signin
+{
+    max-width: 330px;
+    padding: 15px;
+    margin: 0 auto;
+}
+.form-signin .form-signin-heading, .form-signin .checkbox
+{
+    margin-bottom: 10px;
+}
+.form-signin .checkbox
+{
+    font-weight: normal;
+}
+.form-signin .form-control
+{
+    position: relative;
+    font-size: 16px;
+    height: auto;
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.form-signin .form-control:focus
+{
+    z-index: 2;
+}
+.form-signin input[type="text"]
+{
+    margin-bottom: -1px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.form-signin input[type="password"]
+{
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+.account-wall
+{
+    margin-top: 20px;
+    padding: 40px 0px 20px 0px;
+    background-color: #f7f7f7;
+    -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+}
+.login-title
+{
+    color: #555;
+    font-size: 18px;
+    font-weight: 400;
+    display: block;
+}
+.profile-img
+{
+    width: 96px;
+    height: 96px;
+    margin: 0 auto 10px;
+    display: block;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+}
+.need-help
+{
+    margin-top: 10px;
+}
+.new-account
+{
+    display: block;
+    margin-top: 10px;
+} */
